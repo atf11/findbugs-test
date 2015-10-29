@@ -14,7 +14,6 @@ public class App
         //@Nullable
         //@Nonnull
         @Override
-        int testtime;
         public String nullable() {
             if(System.currentTimeMillis() > 1)
                 return null; //This should not be allowed due to annotation in package-info
@@ -25,6 +24,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        int testresult;
         boolean bool = api.nullable().contains("asd"); //This should not warn for NPE
         System.out.println(bool);
 
