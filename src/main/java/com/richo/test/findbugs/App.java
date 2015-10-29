@@ -26,6 +26,7 @@ public class App
         System.out.println( "Hello World!" );
         double testresult;
         testresult=1+2.0;
+        String s = null;
         boolean bool = api.nullable().contains("asd"); //This should not warn for NPE
         System.out.println(bool);
 
