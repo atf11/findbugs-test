@@ -24,7 +24,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        double testtime = 1/1000000000000000000000000000;
+        double testtime = 1/100/111/100/100/100/1000;
         boolean bool = api.nullable().contains("asd"); //This should not warn for NPE
         System.out.println(bool);
 
