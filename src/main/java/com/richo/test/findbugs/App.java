@@ -20,7 +20,7 @@ public class App
             return "asd";
         }
     };
-
+    public static String REQUESTED_API_VERSION = "1.6";
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
