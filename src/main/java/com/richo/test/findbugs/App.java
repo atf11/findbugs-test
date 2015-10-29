@@ -24,7 +24,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        Object inputListLock = new String("inputListLock");
+        String s = new String("inputListLock");
         String s = null;
         boolean bool = api.nullable().contains("asd"); //This should not warn for NPE
         System.out.println(bool);
