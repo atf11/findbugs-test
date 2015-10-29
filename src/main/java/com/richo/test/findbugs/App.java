@@ -14,6 +14,7 @@ public class App
         //@Nullable
         //@Nonnull
         @Override
+        int testtime;
         public String nullable() {
             if(System.currentTimeMillis() > 1)
                 return null; //This should not be allowed due to annotation in package-info
