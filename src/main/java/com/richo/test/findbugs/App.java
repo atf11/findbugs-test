@@ -20,11 +20,11 @@ public class App
             return "asd";
         }
     };
-    private final Object inputListLock = new String("inputListLock");
+    
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        double testresult=1+2;
+        private final Object inputListLock = new String("inputListLock");
         String s = null;
         boolean bool = api.nullable().contains("asd"); //This should not warn for NPE
         System.out.println(bool);
